@@ -3,6 +3,9 @@ html, body {
     padding:0;
     height:100%;
 }
+.my-wrapper {
+    height: 100%;
+}
 
 body {
     background: -moz-linear-gradient(to bottom right, #626262, lightslategray);
@@ -34,4 +37,15 @@ a, a:visited, a:hover, a:active {
     height: 200px;
     width: 200px;
     border-radius: 50%;
+}
+
+.antify-picture {
+    height: 60vh;
+    width: 100%;
+    border-radius: 5%;
+}
+
+.antify-card {
+    width: 50vw !important;
+    background-color: #546e7a;
 }
